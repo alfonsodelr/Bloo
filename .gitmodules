@@ -1,0 +1,3 @@
+[submodule "Bloo/vendor/spdlog"]
+	path = Bloo/vendor/spdlog
+	url = https://github.com/gabime/spdlog

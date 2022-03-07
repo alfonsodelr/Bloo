@@ -2,8 +2,8 @@
 
 // For use by Bloo applications
 
-#include <stdio.h>
 #include "Bloo/Application.h"
+#include "Bloo/Log.h"
 
 // -- Entry Point -----------------
 #include "Bloo/EntryPoint.h"

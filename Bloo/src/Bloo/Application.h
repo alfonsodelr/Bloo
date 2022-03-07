@@ -16,5 +16,4 @@ namespace Bloo {
 	// To be defined in client
 	Application* CreateApplication();
 
-
 }
