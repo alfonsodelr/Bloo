@@ -79,7 +79,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>BL_PLATFORM_WINDOWS;BL_BUILD_DLL;BL_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>vendor\spdlog\include;$(SolutionDir)Bloo\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -147,6 +147,10 @@
     <ClInclude Include="src\Bloo\Application.h" />
     <ClInclude Include="src\Bloo\Core.h" />
     <ClInclude Include="src\Bloo\EntryPoint.h" />
+    <ClInclude Include="src\Bloo\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Bloo\Events\Event.h" />
+    <ClInclude Include="src\Bloo\Events\KeyEvent.h" />
+    <ClInclude Include="src\Bloo\Events\MouseEvent.h" />
     <ClInclude Include="src\Bloo\Log.h" />
   </ItemGroup>
   <ItemGroup>

@@ -19,6 +19,10 @@
     <ClInclude Include="src\Bloo\Log.h">
       <Filter>Bloo</Filter>
     </ClInclude>
+    <ClInclude Include="src\Bloo\Events\Event.h" />
+    <ClInclude Include="src\Bloo\Events\KeyEvent.h" />
+    <ClInclude Include="src\Bloo\Events\MouseEvent.h" />
+    <ClInclude Include="src\Bloo\Events\ApplicationEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Bloo\Application.cpp">
