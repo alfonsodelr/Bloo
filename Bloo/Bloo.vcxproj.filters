@@ -4,6 +4,9 @@
     <Filter Include="Bloo">
       <UniqueIdentifier>{B11A837C-9D51-840D-463E-6A103254000F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Bloo\Events">
+      <UniqueIdentifier>{75B5BBBF-E16A-34B5-6A5F-2E8CD6132BB9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Bloo.h" />
@@ -16,13 +19,21 @@
     <ClInclude Include="src\Bloo\EntryPoint.h">
       <Filter>Bloo</Filter>
     </ClInclude>
+    <ClInclude Include="src\Bloo\Events\ApplicationEvent.h">
+      <Filter>Bloo\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bloo\Events\Event.h">
+      <Filter>Bloo\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bloo\Events\KeyEvent.h">
+      <Filter>Bloo\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bloo\Events\MouseEvent.h">
+      <Filter>Bloo\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Bloo\Log.h">
       <Filter>Bloo</Filter>
     </ClInclude>
-    <ClInclude Include="src\Bloo\Events\Event.h" />
-    <ClInclude Include="src\Bloo\Events\KeyEvent.h" />
-    <ClInclude Include="src\Bloo\Events\MouseEvent.h" />
-    <ClInclude Include="src\Bloo\Events\ApplicationEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Bloo\Application.cpp">
